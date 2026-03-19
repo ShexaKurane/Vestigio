@@ -1,0 +1,14 @@
+[
+    {
+        "id": "1",
+        "title_spanish": "Napoleón cruzando los Alpes",
+        "title_english":"Napoleon Crossing the Alps",
+        "author": "Jacques-Louis David, 1801–1805",
+        "technique": "Óleo sobre lienzo",
+        "spanish": "Estás frente a una de las imágenes más icónicas del poder político convertido en arte: Napoleón cruzando los Alpes, pintado por Jacques-Louis David a comienzos del siglo XIX. Observa cómo Napoleón Bonaparte aparece montado sobre un caballo encabritado, señalando hacia adelante. Su gesto no deja lugar a dudas: guía, ordena, domina. Sin embargo, esta escena no es del todo real. En la vida cotidiana, Napoleón cruzó los Alpes montado en una mula y en condiciones mucho más modestas. David no buscaba documentar, sino construir un mito. Fíjate en los nombres grabados en las rocas: Aníbal, Carlomagno… y ahora Napoleón. Con esto, el pintor lo coloca en la misma línea de grandes líderes que desafiaron la historia. El estilo pertenece al Neoclasicismo, que recupera la estética de la antigüedad clásica para transmitir valores como el heroísmo, la disciplina y la grandeza moral. Las líneas son claras, la figura es idealizada, y todo en la composición dirige tu mirada hacia el protagonista. Este cuadro no es solo una obra de arte: es propaganda. Fue encargado para consolidar la imagen de Napoleón como un líder casi legendario, capaz de dominar la naturaleza y el destino. Al mirarlo, pregúntate: ¿estás viendo a un hombre… o a un símbolo?",
+        "audio_spanish" : "../audio/es/1.mp3",
+        "english": "You are standing before one of the most iconic images of political power transformed into art: Napoleon Crossing the Alps, painted by Jacques-Louis David in the early 19th century. Notice how Napoleon Bonaparte is shown mounted on a rearing horse, pointing forward. His gesture leaves no doubt: he leads, commands, and dominates. However, this scene is not entirely real. In reality, Napoleon crossed the Alps on a mule under far more modest conditions. David was not trying to document events, but to create a myth. Look closely at the names carved into the rocks: Hannibal, Charlemagne… and now Napoleon. In doing so, the painter places him among the great leaders who shaped history. The style belongs to Neoclassicism, which draws on the aesthetics of classical antiquity to convey values such as heroism, discipline, and moral greatness. The lines are clear, the figure is idealized, and everything in the composition directs your attention toward the protagonist. This painting is not just a work of art—it is propaganda. It was commissioned to reinforce Napoleon’s image as a near-legendary leader, capable of mastering both nature and destiny. As you look at it, ask yourself: are you seeing a man… or a symbol?",
+        "audio_english" : "../audio/en/1.wav",
+        "image" : "../img/1.jpg"
+    }
+]
