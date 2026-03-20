@@ -90,13 +90,11 @@ position: relative;
     display: flex;
     flex-direction: row;
     margin-top: 2em;
-    margin-bottom: 2em
-32px
-;
+    margin-bottom: 2em;
 }
 
 .audio-player img{
-    margin-right: 10px;    
+    margin-right: 10px;  
     width: 3em;
     height: 3em;
 }
