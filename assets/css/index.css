@@ -80,3 +80,18 @@ position: relative;
 .bd-mode-toggle .dropdown-menu .active .bi {
     display: block !important;
 }
+
+.header-icon{
+    font-size: 2em;
+    margin-right: 10px;
+}
+
+.audio-player{
+    display: flex;
+    flex-direction: row;
+}
+
+.audio-player img{
+    font-size: 2em;
+    margin-right: 10px;
+}
