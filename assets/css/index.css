@@ -92,6 +92,7 @@ position: relative;
 }
 
 .audio-player img{
-    font-size: 2em;
-    margin-right: 10px;
+    margin-right: 10px;    
+    width: 3em;
+    height: 3em;
 }
