@@ -89,10 +89,28 @@ position: relative;
 .audio-player{
     display: flex;
     flex-direction: row;
+    margin-top: 2em;
+    margin-bottom: 2em
+32px
+;
 }
 
 .audio-player img{
     margin-right: 10px;    
     width: 3em;
     height: 3em;
+}
+
+.illust-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
