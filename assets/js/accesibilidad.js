@@ -1,13 +1,13 @@
 var menuOpen = true;
 var modoAccesibilidad = false;
 
+menuItems = [];
+menuItems.push(document.getElementById("visual"));
+
 function accesBtnActionState()
 {    
     menuOpen = !menuOpen;
 
-    menuItems = [];
-    menuItems.push(document.getElementById("visual"));
-    menuItems.push(document.getElementById("auditivo"));
 
     menuItems.forEach(element => {
         if(menuOpen)
@@ -29,10 +29,14 @@ function accesBtnVisualActionState()
 
     if(modoAccesibilidad){
         menuItems[0].style.backgroundColor = "var(--success)";
-        document.getElementById("content").style.fontSize = "var(--fs-accesibilidad)";
+        document.querySelectorAll(".access-txt").forEach(element => {
+            element.style.fontSize = "var(--fs-accesibilidad) !important";
+        });
     }else{
         menuItems[0].style.backgroundColor = "";
-        document.getElementById("content").style.fontSize = "";
+        document.querySelectorAll(".access-txt").forEach(element => {
+            element.style.fontSize = "";
+        });
     }
 }
 
