@@ -1,0 +1,28 @@
+@import url('https://fonts.cdnfonts.com/css/open-dyslexic');
+
+:root {
+  --primary: #0000001a;
+  --secondary: #2b3035;
+  --contrast: #712cf9;
+  --info: #3fc1bd;
+  --success: #7fff7f;
+  --warning: #ffff99;
+  --alert: #ff657c;
+  --carbon: #333333;
+  --gray: #cccccc;
+  --white: #ffffff;
+  
+  --btn-bg: #712cf9;
+  --btn-hover-bg: #6528e0;
+  --bs-btn-active-bg: #5a23c8;
+
+  --title: 'Montserrat', sans-serif;
+  --subtitle: 'Urbanist', sans-serif;
+  --body: 'Poppins', sans-serif;
+  --menu: 'Montserrat', sans-serif;
+  --acces-dislexia: "Open-Dyslexic", Verdana, Arial,"Comic Sans MS", sans-serif;
+  --acces-animation-time: 1s;
+  --fs-normal: 1.3rem;
+  --fs-accesibilidad: 3rem;
+
+}
