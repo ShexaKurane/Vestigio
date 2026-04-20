@@ -1,0 +1,101 @@
+#accesibilidad {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  /* background-color: red; */
+  padding: 20px;
+  margin-top: 20px;
+  transition-duration: 0.3s;
+  text-align: -webkit-right;
+}
+
+.acces-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.acces-btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 50px;
+  height: 50px;
+  background-color: var(--btn-bg);
+  color: white;
+  cursor: pointer;
+  margin: 1rem 0rem;
+  overflow: hidden;
+  text-wrap: nowrap;
+  border-radius: 25px;
+  font-size: 25px;
+}
+
+.acces-btn i {
+  padding: 0 0 0 12px;
+  margin: 0 20px 0 0;
+}
+.acces-btn span {
+  margin: 0 20px 0 0;
+}
+
+.acces-btn-open {
+  width: 100%;
+  height: 50px;
+  animation-name: acces-btn-open;
+  animation-duration: var(--acces-animation-time);
+  padding: 0px 50px;
+}
+
+.acces-btn-close {
+  width: 0px;
+  height: 0px;
+  animation-name: acces-btn-open;
+  animation-duration: var(--acces-animation-time);
+}
+
+.acces-btn:hover {
+  background-color: var(--btn-hover-bg);
+}
+
+.acces-btn:active {
+  background-color: var(--bs-btn-active-bg);
+}
+
+.acces-menu {
+  /* background-color: chartreuse; */
+  overflow: hidden;
+  transition: 1s;
+
+}
+
+@keyframes acces-btn-open {
+  0%   {
+    width: 0px;
+    height: 0px;
+  }
+  50%  {
+    width: 50px;
+    height: 50px;
+  }
+  100% {
+    width: 100%;
+    height: 50px;
+  }
+}
+
+@keyframes acces-btn-close {
+  0% {
+    width: 100%;
+    height: 50px;
+  }
+  50%  {
+    width: 50px;
+    height: 50px;
+  }
+  0%   {
+    width: 0px;
+    height: 0px;
+  }
+}
