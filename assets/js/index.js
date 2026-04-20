@@ -1,4 +1,4 @@
-// Get query parameters
+// Get parameters
 const params = new URLSearchParams(window.location.search);
 const id = parseInt(params.get('id'));           // convert to number
 const language = params.get('language') || 'spanish'; // default to english
@@ -27,7 +27,6 @@ fetch('inventory.json')
         } else {
           audioElement.style.display = 'none';
         }
-
     } else {
       document.getElementById('content').textContent = 'Item not found';
     }
