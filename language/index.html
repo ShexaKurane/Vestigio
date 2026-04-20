@@ -23,8 +23,8 @@
     <div class="container py-4 lang-div">
       <header class="pb-3 mb-4 border-bottom">
         <a href="/" class="d-flex align-items-center text-body-emphasis text-decoration-none">
-          <span class="header-icon"><img style ="max-width: 64px;" src="../img/icons/secultah.jpg" alt=""></span>
-          <span class="fs-4">Secretaría de cultura - Audioguía</span>
+          <span class="header-icon"><img style ="max-width: 64px;" src="../img/icons/ayuntamiento.png" alt=""></span>
+          <span class="fs-4">Cultura - Audioguía</span>
         </a>
       </header>
       <div class="form-signin w-100 m-auto">
@@ -45,7 +45,10 @@
             
             <script>
               const currentParams = new URLSearchParams(window.location.search);
-              const id = currentParams.get('id');
+              let id = currentParams.get('id');
+              if (id === null){
+                id = '1';
+              }
               document.querySelectorAll('.form').forEach(form => {
                 form.addEventListener('submit', function (event) {
                   event.preventDefault();
