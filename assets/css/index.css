@@ -109,6 +109,7 @@ position: relative;
     justify-content: center;
     align-items: center;
     padding: 10px;
+    width: 100%;
 }
 
 footer{
@@ -118,10 +119,13 @@ footer{
     align-items: center;
 }
 
-image {
-    max-width: 400px;
+#image {
+    width: 90%;
+    max-width: 900px; 
+    border-radius: 25px; 
 }
 
 #content{
     font-size: var(--fs-normal);
+    white-space: pre-wrap;
 }
