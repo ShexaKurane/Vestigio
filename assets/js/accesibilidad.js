@@ -9,15 +9,15 @@ menuItems.push(document.getElementById("dislexia"));
 const options = {
     duration: 800,
     iterations: 1,
-    fill: 'forwards', // Mantiene el estado final de la animación
-    easing: 'ease-in-out' // Opcional: hace el movimiento más fluido
+    fill: 'forwards',
+    easing: 'ease-in-out'
 };
 
 const options2 = {
     duration: 1100,
     iterations: 1,
-    fill: 'forwards', // Mantiene el estado final de la animación
-    easing: 'ease-in-out' // Opcional: hace el movimiento más fluido
+    fill: 'forwards',
+    easing: 'ease-in-out'
 };
 
 function accesBtnActionState()
@@ -44,17 +44,15 @@ function accesBtnActionState()
             ], options2);
         }
     });
-
 }
 
 function accesBtnVisualActionState()
 {
     modoAccesibilidad = !modoAccesibilidad;
-
     if(modoAccesibilidad){
         menuItems[0].style.backgroundColor = "var(--success)";
         document.querySelectorAll(".access-txt").forEach(element => {
-            element.style.fontSize = "var(--fs-accesibilidad) !important";
+            element.style.fontSize = "3rem";
         });
     }else{
         menuItems[0].style.backgroundColor = "";
@@ -67,11 +65,10 @@ function accesBtnVisualActionState()
 function accesBtnDislexiaActionState()
 {
     modoDislexia = !modoDislexia;
-
     if(modoDislexia){
         menuItems[1].style.backgroundColor = "var(--success)";
         document.querySelectorAll(".access-txt").forEach(element => {
-            element.style.fontFamily = "var(--acces-dislexia) !important";
+            element.style.fontFamily = "Open-Dyslexic";
         });
     }else{
         menuItems[1].style.backgroundColor = "";
