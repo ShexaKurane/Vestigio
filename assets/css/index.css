@@ -129,3 +129,15 @@ footer{
     font-size: var(--fs-normal);
     white-space: pre-wrap;
 }
+
+body {
+  background-image: var(--fifa-linear-gradient);
+}
+
+#header{
+    color: var(--black);
+    font-family:Impact, Helvetica, Arial, 'Times New Roman', Times, serif;
+    text-decoration: bold;
+    font-size: 2rem;
+    text-align: center;
+}

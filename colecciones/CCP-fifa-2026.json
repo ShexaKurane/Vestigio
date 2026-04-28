@@ -1,0 +1,25 @@
+{"coleccion":
+    {
+        "nombre" : "Fifa 2026",
+        "descripcion" : "Mundial fifa 2026 por la Casa de Cultura de Pachuca.",
+        "ubicacion" : "Pachuca, Hidalgo, México",
+        "año" : "2026",
+        "notas" : "Autor: RageAmber(dan@dekairysoftware.com).",
+        "propiedadDe" : "Dekairy Software"
+        ,
+        "piezas":  [
+            {
+                "id": "4",
+                "title_spanish": "Reloj Monumental de Pachuca",
+                "title_english":"Monumental Clock of Pachuca",
+                "author": "Tomás Cordero",
+                "technique": "Arquitectura Neoclásica",
+                "spanish": "La construcción fue financiada por las compañías mineras San Rafael, Santa Gertrudis, La Blanca y Santa Ana, con un costo aproximado de 300 000 pesos oro. Se utilizó cantera de Tezoantla, transportada en carros especiales tirados por veinte o treinta mulas, ya que algunos bloques pesaban hasta tres toneladas. La piedra se talló en el lugar y se colocó mediante andamios de madera, utilizando la técnica de machihembrado para ensamblar los bloques.  En la obra participaron 35 trabajadores en la primera etapa y 29 en la segunda, entre ellos Jacinto y Pedro Hernández Baldovino, Julio Meza Hernández, Pedro Madrid y Alfonso Arteaga, quien esculpió las acroteras con forma del Escudo Nacional.  Jesús Zenil Martínez adquirió en Inglaterra la maquinaria del reloj y el carrillón, que llegaron a Pachuca en 1906 y se instalaron posteriormente en la torre bajo la responsabilidad de Tomás Zepeda. También se colocó una cúpula de cobre fabricada en Monterrey, transportada por ferrocarril, con apoyo de trabajadores de la compañía minera de San Rafael.",
+                "audio_spanish" : "../audio/es/4.mp3",
+                "english": "The construction was funded by the mining companies San Rafael, Santa Gertrudis, La Blanca, and Santa Ana, with an approximate cost of 300,000 gold pesos. Stone from Tezoantla was used, transported in special carts pulled by twenty to thirty mules, as some blocks weighed up to three tons. The stone was carved on-site and placed using wooden scaffolding, employing a mortise-and-tenon technique to assemble the blocks.  A total of 35 workers participated in the first stage and 29 in the second, including Jacinto and Pedro Hernández Baldovino, Julio Meza Hernández, Pedro Madrid, and Alfonso Arteaga, who sculpted the acroteria shaped like the Mexican National Coat of Arms.  Jesús Zenil Martínez purchased the clock and carillon machinery in England; it arrived in Pachuca in 1906 and was later installed in the tower under the responsibility of Tomás Zepeda. A copper dome manufactured in Monterrey was also installed, transported by railway, with support from workers of the San Rafael mining company.",
+                "audio_english" : "../audio/en/4.mp3",
+                "image" : "../img/4.jpg"
+            }
+        ]
+    }
+}

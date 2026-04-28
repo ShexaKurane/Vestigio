@@ -24,4 +24,33 @@
   --acces-animation-time: 1s;
   --fs-normal: 1.3rem;
   --fs-accesibilidad: 3rem;
+
+  --fifa-linear-gradient: linear-gradient(
+      -5deg, 
+      #edfe3c 0%, #edfe3c 8%, 
+      #004f3c 8.1%, #004f3c 16%, 
+      #65fcdb 16.1%, #65fcdb 24%, 
+      #5f01eb 24.1%, #5f01eb 32%, 
+      #afeb00 32.1%, #afeb00 40%, 
+      #f34104 40.1%, #f34104 48%, 
+      #344ffe 48.1%, #344ffe 56%, 
+      #b089fe 56.1%, #b089fe 64%, 
+      #d60000 64.1%, #d60000 72%, 
+      #741513 72.1%, #741513 80%, 
+      #ffffff 80.1%, #ffffff 100%);
+
+  --fifa-radial-gradient: radial-gradient(
+    circle farthest-corner at 100% 100%, 
+      #edfe3c 0%,
+      #edfe3c 0%, #edfe3c 14%, 
+      #004f3c 14.1%, #004f3c 21%, 
+      #65fcdb 21.1%, #65fcdb 28%, 
+      #5f01eb 28.1%, #5f01eb 35%, 
+      #afeb00 35.1%, #afeb00 42%, 
+      #f34104 42.1%, #f34104 49%, 
+      #344ffe 49.1%, #344ffe 56%, 
+      #b089fe 56.1%, #b089fe 63%, 
+      #d60000 63.1%, #d60000 70%, 
+      #741513 70.1%, #741513 77%, 
+      #ffffff 77.1%, #ffffff 100%);
 }
